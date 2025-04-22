@@ -1,14 +1,103 @@
-.Login {
-  position: relative;
-  height: 100vh;
-  display: grid;
-  align-items: center;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smartcard</title>
+    <style>
+     .container{
+        font-family:Arial, Helvetica, sans-serif;
+        margin: 20px;
+        background-color: aqua;
+     }
+    h1{
+        text-align: center;
+    }
+    nav{
+        text-align: center;
+    }
+   nav a{
+    display: inline-block;
+    margin: 15px;
+   }
+   #electric {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
 }
+#clothes {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+  #lamp {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  }
 
-.Login_img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
+    </style>
+</head>
+<body class="container">
+    <div>
+        <h1><b><em>Product Catalog</em></b></h1>
+        <nav id="sam"><a href="#electric" >Electronics</a>
+        <a href="#clothes">Clothing</a>
+        <a href="#lamp">Home</a></nav>
+        <section id="electric">
+            <h2><b>Electronics</b></h2>
+            <h3><b>Laptop</b></h3>
+            <p><b>Descripition:</b>High-performance laptop with the latest processor and ample storage</p>
+            <p><b>price:</b>$5999.99</p>
+            <p><b>Availibility:</b>In stock</p>
+            <img src="Screenshot 2025-03-29 154708.png" width="200" height="200" alt="laptop"></br>
+            <a href="https://www.amazon.in/Dell-G15-5530-i5-13450HX-39-62cm-Keyboard/dp/B0C1Z4GS7L/ref=asc_df_B0C1Z4GS7L/?tag=googleshopdes-21&linkCode=df0&hvadid=709855510254&hvpos=&hvnetw=g&hvrand=14404342665268860320&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1007805&hvtargid=pla-2195257768281&mcid=9efb9d873c0b36929f0cbc914c1a01c9&gad_source=1&th=1"><u>View details</u></a>
+            <ul>
+                <li><b>Brand:</b>XYZ Eectronics</li>
+                <li><b>screen size:</b>15.6 inches</li>
+                <li><b>RAM:</b>16 GB</li>
+                <li><b>Storage:</b>512GB SSD</li>
+            </ul>
+        </section>
+        <section id="clothes">
+            <h2><b>Clothing</b></h2>
+            <h3><b>T-shirt</b></h3>
+            <p><b>Descripition:</b>Casual and comfortable t-shirt premium quality cotton</p>
+            <p><b>price:</b>$19.99</p>
+            <p><b>Availibility:</b>In stock</p>
+            <img src="Screenshot 2025-03-29 161331.png" width="200" height="200" alt="csk"></br>
+            <a href="https://www.chennaisuperkings.com/shop/products/PRCSK25-MJLS-PLAIN-ADULT"><u>View details</u></a>
+            <ul>
+                <li><b>Brand:</b>Fashion Apparel</li>
+                <li><b>color:</b>Yellow</li>
+                <li><b>Size:</b>S,M,L</li>
+                <li><b>Material:</b>100% Cotton</li>
+            </ul>
+        </section>
+        <section id="lamp">
+            <h2><b>Home</b></h2>
+            <h3><b>Table lamp</b></h3>
+            <p><b>Descripition:</b>Modern and stylish table lamp to enhance your home decor</p>
+            <p><b>price:</b>$39.99</p>
+            <p><b>Availibility:</b>In stock</p>
+            <img src="Screenshot 2025-03-29 162648.png" width="200" height="200" alt="lamp"></br>
+            <a href="https://www.flipkart.com/akr-rechargeable-touch-control-multifunctional-led-lamp-eye-protect-desk-table/p/itmd69a15f81e1a2?pid=TLPHAH9W9RPPRXWP&lid=LSTTLPHAH9W9RPPRXWPSWJNUF&marketplace=FLIPKART&store=jhg%2F6w8%2Fgde&srno=b_1_13&otracker=browse&fm=organic&iid=c94c3552-e0cc-4a13-945a-4516a61c4192.TLPHAH9W9RPPRXWP.SEARCH&ppt=browse&ppn=browse&ssid=l573kj0i400000001743245700589"><u>View details</u></a>
+            <ul>
+                <li><b>Brand:</b>Home Essential</li>
+                <li><b>color:</b>White</li>
+                <li><b>dimension:</b>12 inches(height)</li>
+                <li><b>Material:</b>ceramic,metal</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
